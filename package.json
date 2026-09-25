@@ -1,0 +1,14 @@
+{
+  "name": "node-docker-multistage",
+  "version": "1.0.0",
+  "description": "Basic Node.js app for a Docker multi-stage build",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "app-message": "file:./packages/app-message"
+  }
+}
